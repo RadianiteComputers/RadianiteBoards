@@ -1,0 +1,741 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a0cc354a-60ab-464a-9a28-4a35e48053b0")
+	(paper "A3")
+	(title_block
+		(title "Radianite Computer (Codename: Lemon Irvine)")
+		(date "2024-09-20")
+		(rev "0.1")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 88.138 188.722) (xy 91.948 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0175a75d-4e60-41bd-bbd5-993175827a70")
+	)
+	(polyline
+		(pts
+			(xy 65.278 179.832) (xy 70.358 179.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e57f549-d206-4c11-86b0-5a5b71d9305f")
+	)
+	(polyline
+		(pts
+			(xy 79.2395 196.0969) (xy 94.4795 196.0969)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d99286-6839-46be-846c-3aa88e8b06c8")
+	)
+	(polyline
+		(pts
+			(xy 107.188 179.832) (xy 112.268 179.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a95f460-fcb6-48df-85a5-a2b5c907b98a")
+	)
+	(polyline
+		(pts
+			(xy 91.948 188.722) (xy 107.188 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bed724f-e97c-47bd-801c-eadc27af3ccf")
+	)
+	(polyline
+		(pts
+			(xy 65.278 203.962) (xy 65.278 206.502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d31197-c4db-4092-862e-e6f9ddee4a65")
+	)
+	(polyline
+		(pts
+			(xy 94.4795 196.0969) (xy 94.4795 198.6369)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f92037d-0fd2-4f06-9825-795db7123b87")
+	)
+	(polyline
+		(pts
+			(xy 112.268 197.612) (xy 109.728 197.612)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902a82a3-b084-471c-98ec-df4b09138e79")
+	)
+	(polyline
+		(pts
+			(xy 88.138 179.832) (xy 91.948 179.832)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82e665b-fee1-49fa-b97a-4054b1110bdf")
+	)
+	(polyline
+		(pts
+			(xy 79.248 192.532) (xy 79.2395 196.0969)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab69a360-860f-41de-9d24-0d6c4b95b361")
+	)
+	(polyline
+		(pts
+			(xy 109.728 197.612) (xy 109.728 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96c71ae-e187-4941-91ac-060803a0d4a2")
+	)
+	(polyline
+		(pts
+			(xy 65.2695 196.0969) (xy 79.2395 196.0969)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fca229-6e92-4efe-9cd0-dcaeaee9d3c7")
+	)
+	(polyline
+		(pts
+			(xy 65.2695 198.6369) (xy 65.2695 196.0969)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e17d0098-aabf-4e03-a809-a28db01f5c6f")
+	)
+	(polyline
+		(pts
+			(xy 79.248 173.482) (xy 79.248 176.022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86ef068-84e8-48f7-bebd-79cd860f097c")
+	)
+	(polyline
+		(pts
+			(xy 107.188 188.722) (xy 112.268 188.722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d1db4b-8643-4b70-8409-e7686c16e8a0")
+	)
+	(polyline
+		(pts
+			(xy 79.2395 196.0969) (xy 79.2395 198.6369)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f265457c-3d0f-4c15-92c0-ff7e2f31ee29")
+	)
+	(polyline
+		(pts
+			(xy 65.278 187.452) (xy 70.358 187.452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a26431-6d48-4ff2-824b-c7110e7d277d")
+	)
+	(rectangle
+		(start 88.1295 198.6369)
+		(end 99.5595 203.962)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1e370091-5317-4e77-a73c-569c38e65284)
+	)
+	(arc
+		(start 48.768 182.372)
+		(mid 46.9719 181.6281)
+		(end 46.228 179.832)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 205599ec-6204-41a9-8269-facd7d9c6e25)
+	)
+	(rectangle
+		(start 74.1595 198.6369)
+		(end 85.5895 203.962)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26833258-de6f-4453-bc92-87fb1ae45718)
+	)
+	(rectangle
+		(start 112.268 184.912)
+		(end 123.698 191.262)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 28b3035f-545b-4e86-9019-7ac402d9abf4)
+	)
+	(arc
+		(start 47.498 179.832)
+		(mid 47.87 178.934)
+		(end 48.768 178.562)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 309e7151-7ba4-46d2-9f9d-da0b9f8d8b39)
+	)
+	(rectangle
+		(start 112.268 193.802)
+		(end 123.698 200.152)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d9222ec-19be-4958-8033-dce52c8da3a9)
+	)
+	(arc
+		(start 44.958 179.832)
+		(mid 46.0739 177.1379)
+		(end 48.768 176.022)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e58db4c-4084-4dd3-999e-863ceee8f09b)
+	)
+	(rectangle
+		(start 70.3495 176.0309)
+		(end 88.1295 192.5409)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6193388d-964a-4014-a3e1-026210bdbd2c)
+	)
+	(rectangle
+		(start 91.948 176.022)
+		(end 107.188 182.372)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 62714b2b-8247-4691-807e-0ab77311f528)
+	)
+	(rectangle
+		(start 50.8 176.022)
+		(end 65.278 183.642)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 65f2fc8a-4448-4043-b825-b2539d9ce3e7)
+	)
+	(rectangle
+		(start 58.9195 198.6369)
+		(end 72.8895 203.962)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 661620dd-bc0b-4f19-acc1-944f1b85df5e)
+	)
+	(rectangle
+		(start 67.818 168.402)
+		(end 91.948 173.482)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9218cda4-6655-474b-89ef-4d46f16cc075)
+	)
+	(arc
+		(start 46.228 179.832)
+		(mid 46.9719 178.0359)
+		(end 48.768 177.292)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a9ac804-4b7f-41b4-9e05-3e567ebc3317)
+	)
+	(rectangle
+		(start 51.308 184.912)
+		(end 65.278 189.992)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a6805bc5-59e1-41f3-aba7-b09507c2d6c8)
+	)
+	(arc
+		(start 48.768 183.642)
+		(mid 46.0739 182.5261)
+		(end 44.958 179.832)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d25e27b4-9519-4d55-ac69-3322bd5ed084)
+	)
+	(rectangle
+		(start 112.268 176.022)
+		(end 127.508 182.372)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dc084b85-4759-49f1-bee6-6f2f4ad4834c)
+	)
+	(arc
+		(start 48.768 181.102)
+		(mid 47.87 180.73)
+		(end 47.498 179.832)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dde0cf65-bb2e-4220-9628-0443eaf1ce51)
+	)
+	(rectangle
+		(start 58.928 206.502)
+		(end 72.898 211.8271)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fdb1997c-2b19-4959-a468-e2c6904a0302)
+	)
+	(text "Radianite Computers Inc."
+		(exclude_from_sim no)
+		(at 49.53 97.282 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+			(justify left)
+		)
+		(uuid "05f6518b-808b-42d0-bf41-31696bc93eb7")
+	)
+	(text "Ethernet"
+		(exclude_from_sim no)
+		(at 120.142 179.578 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "064fca3e-5786-4d13-898d-269167ccae8f")
+	)
+	(text "USB-C 5V"
+		(exclude_from_sim no)
+		(at 65.786 209.55 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "0de67dab-3fa9-4844-8717-fe19aa60935e")
+	)
+	(text "USB x2"
+		(exclude_from_sim no)
+		(at 118.11 188.468 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "59748b91-bc89-4f05-a583-691a6befe751")
+	)
+	(text "A/V Jack"
+		(exclude_from_sim no)
+		(at 93.98 201.676 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "59931691-8754-47c0-b756-cfcc9e04a986")
+	)
+	(text "big thanks to YuzukiHD (@GLGH aka GloomyGhost) for the reference\nschematic. without your chameleon project, this project wouldn't happen and\ni would have a hard time studying the H616 schematic/PCB design\n"
+		(exclude_from_sim no)
+		(at 46.736 225.298 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "5b9f95a6-a584-47d0-9c87-36257308c354")
+	)
+	(text "basic block diagram"
+		(exclude_from_sim no)
+		(at 49.53 155.702 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "7daaa6c4-d009-44e5-b0bc-da6aa3876c69")
+	)
+	(text "HDMI"
+		(exclude_from_sim no)
+		(at 79.756 201.676 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "9e655530-fda5-42b1-8113-96f5f792a7b7")
+	)
+	(text "Ethernet\nTransformer"
+		(exclude_from_sim no)
+		(at 99.568 179.324 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "a062b115-2fea-4d65-81eb-c6f4fb53668c")
+	)
+	(text "AXP1530"
+		(exclude_from_sim no)
+		(at 65.786 201.676 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "a55d7ed0-3785-4862-ae97-f74ddc622c13")
+	)
+	(text "Project Lemon Irvine"
+		(exclude_from_sim no)
+		(at 47.752 110.49 0)
+		(effects
+			(font
+				(size 10.16 10.16)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a772b33a-b1ab-4678-992d-82a230e334be")
+	)
+	(text "H616/\nH618"
+		(exclude_from_sim no)
+		(at 79.2395 184.6669 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "b142d3a9-1be8-44b4-99b2-060a61699609")
+	)
+	(text "DDR3 RAM"
+		(exclude_from_sim no)
+		(at 58.166 187.706 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "cb69565a-dc37-4f91-97b1-790fb6c297ea")
+	)
+	(text "XR829\nWifi/BT\nTransceiver"
+		(exclude_from_sim no)
+		(at 58.166 180.086 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "d614db8e-212e-497e-bb99-196bc2af2fc5")
+	)
+	(text "GPIO Headers"
+		(exclude_from_sim no)
+		(at 79.248 171.196 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "e2013cd8-6f4f-4352-8920-b19f599d018c")
+	)
+	(text "exclusively designed to aid my\nbrother's group research on making \nan AI-based intelligent train (model, not real).\nbased on H616. symbols, footprint and resources\nby YuzukiHD's Chameleon\nI/O supply's going to be enough for him (couple of USB ports)\ngoing to make it to mass production if successful"
+		(exclude_from_sim no)
+		(at 49.53 134.62 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "ee637df2-da23-437d-a12d-39c1577f5275")
+	)
+	(text "USB x2"
+		(exclude_from_sim no)
+		(at 118.11 197.358 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "f87c5bcd-1136-4867-b667-8c7f3e2de24d")
+	)
+	(sheet
+		(at 60.96 294.64)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aad1a9e5-4416-4353-aa32-deb968e0a622")
+		(property "Sheetname" "IO"
+			(at 60.96 293.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 60.96 299.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Radianite-ProjectLemonIrvine"
+				(path "/a0cc354a-60ab-464a-9a28-4a35e48053b0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 294.64)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3594ab5-3560-48b1-9609-6ea6028d0d19")
+		(property "Sheetname" "Memory"
+			(at 31.75 293.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 31.75 299.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Radianite-ProjectLemonIrvine"
+				(path "/a0cc354a-60ab-464a-9a28-4a35e48053b0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 2.54 294.64)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e0e47b28-1921-4ea0-b7a3-04f194ce0e7b")
+		(property "Sheetname" "Power"
+			(at 2.54 293.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 2.54 299.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Radianite-ProjectLemonIrvine"
+				(path "/a0cc354a-60ab-464a-9a28-4a35e48053b0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 294.64)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa35912e-4a00-4c56-a460-d8d69080560d")
+		(property "Sheetname" "Miscellaneous"
+			(at 86.36 293.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 86.36 299.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Radianite-ProjectLemonIrvine"
+				(path "/a0cc354a-60ab-464a-9a28-4a35e48053b0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

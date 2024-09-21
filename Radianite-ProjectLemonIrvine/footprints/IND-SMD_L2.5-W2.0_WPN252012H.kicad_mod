@@ -1,0 +1,213 @@
+(footprint "IND-SMD_L2.5-W2.0_WPN252012H"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "51035a44-2b1c-4556-b590-8f9058651ad0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8ba0dad7-e7d2-490a-a58a-c8ac541395ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "503df050-de80-4281-add6-f507c9b2dfcc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c6595b1-99da-4e90-8a2f-5323bab613cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa2f6f1e-ea21-418c-8d02-553e473c6600")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.326 -1.087)
+		(end -1.326 -1.077)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6d399a75-cb5b-493b-8708-c5e5acd9b6d7")
+	)
+	(fp_line
+		(start -1.326 -1.077)
+		(end 1.326 -1.077)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7861b03c-2434-4ecf-904a-90374bfbbd5e")
+	)
+	(fp_line
+		(start -1.326 1.077)
+		(end 1.326 1.077)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "23c499f3-f7bc-47ba-9967-bfc9b1c243a9")
+	)
+	(fp_line
+		(start -1.326 1.087)
+		(end -1.326 1.077)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7c1c816-2627-4b67-a496-6487b488afaa")
+	)
+	(fp_line
+		(start 1.326 -1.077)
+		(end 1.326 -1.087)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f36fdc2-130e-4886-a6a9-dda8d15849c8")
+	)
+	(fp_line
+		(start 1.326 1.077)
+		(end 1.326 1.087)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "997d7869-0d66-43eb-8084-d8b21c224946")
+	)
+	(fp_poly
+		(pts
+			(xy -0.4495 0.8255) (xy -1.2495 0.8255) (xy -1.2495 -0.8255) (xy -0.4495 -0.8255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "944d595d-98be-448f-a4ae-8d14d2ecbe1f")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4495 -0.8255) (xy 1.2495 -0.8255) (xy 1.2495 0.8255) (xy 0.4495 0.8255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "cfd18466-af58-4c73-8fa0-2d67c8a960a5")
+	)
+	(fp_line
+		(start -1.2495 -1.001)
+		(end 1.2495 -1.001)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "f860e133-b5ac-4991-bc84-6588fd3c6a25")
+	)
+	(fp_line
+		(start -1.2495 1.001)
+		(end -1.2495 -1.001)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "77110746-91b2-4924-93d0-7d2431c09a2f")
+	)
+	(fp_line
+		(start 1.2495 -1.001)
+		(end 1.2495 1.001)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "7ba8201f-3688-49d7-959c-f68f08e69696")
+	)
+	(fp_line
+		(start 1.2495 1.001)
+		(end -1.2495 1.001)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "143760ac-fdd8-4416-98d7-a55d47a71e03")
+	)
+	(fp_poly
+		(pts
+			(xy -1.1885 1.001) (xy -1.206366 0.957866) (xy -1.2495 0.94) (xy -1.292634 0.957866) (xy -1.3105 1.001)
+			(xy -1.292634 1.044134) (xy -1.2495 1.062) (xy -1.206366 1.044134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.3")
+		(uuid "6e803f83-8fde-4f8a-9566-87eab6a9c656")
+	)
+	(pad "1" smd rect
+		(at 1.2295 0)
+		(size 1.7245 1.8695)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "33bea088-8627-4815-bbea-af2c3476d662")
+	)
+	(pad "2" smd rect
+		(at -1.227 0)
+		(size 1.7245 1.8695)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "366acfa3-59ee-4bed-90a8-1ae8ca479012")
+	)
+)

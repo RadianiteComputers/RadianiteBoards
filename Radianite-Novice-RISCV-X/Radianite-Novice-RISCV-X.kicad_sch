@@ -7375,7 +7375,7 @@
 		(uuid "38aa1156-5f78-4952-a1a7-26dfba714df2")
 	)
 	(junction
-		(at 344.17 158.75)
+		(at 288.29 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "397aa048-8282-4837-a98b-3cbf7ec7cf25")
@@ -7417,7 +7417,7 @@
 		(uuid "3ccc653e-56e4-4743-a762-e2dbde118fb3")
 	)
 	(junction
-		(at 339.09 162.56)
+		(at 292.1 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cddd578-7617-4149-b463-8872a3b1ed75")
@@ -7471,7 +7471,7 @@
 		(uuid "4841053c-e68b-4e1d-b016-eb9d4f706682")
 	)
 	(junction
-		(at 344.17 166.37)
+		(at 295.91 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a0b3ce2-e599-4bf6-b3f0-e10211d23843")
@@ -7795,7 +7795,7 @@
 		(uuid "a4df8004-c7e7-4dda-b32f-a590c4b40a6f")
 	)
 	(junction
-		(at 320.04 162.56)
+		(at 292.1 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a633d794-7f5a-4208-9fcd-a6402349d0bb")
@@ -9286,7 +9286,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 166.37) (xy 344.17 166.37)
+			(xy 295.91 121.92) (xy 295.91 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9516,7 +9516,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 166.37) (xy 320.04 166.37)
+			(xy 295.91 129.54) (xy 295.91 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9856,7 +9856,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 162.56) (xy 349.25 162.56)
+			(xy 292.1 115.57) (xy 292.1 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10426,7 +10426,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 166.37) (xy 320.04 162.56)
+			(xy 295.91 134.62) (xy 292.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10446,7 +10446,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 162.56) (xy 339.09 162.56)
+			(xy 292.1 134.62) (xy 292.1 115.57)
 		)
 		(stroke
 			(width 0)
@@ -10566,7 +10566,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 158.75) (xy 359.41 158.75)
+			(xy 288.29 97.79) (xy 288.29 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10846,7 +10846,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 166.37) (xy 359.41 166.37)
+			(xy 295.91 110.49) (xy 295.91 95.25)
 		)
 		(stroke
 			(width 0)
@@ -11876,7 +11876,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 158.75) (xy 344.17 158.75)
+			(xy 288.29 121.92) (xy 288.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -12146,7 +12146,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 158.75) (xy 320.04 158.75)
+			(xy 288.29 129.54) (xy 288.29 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12646,7 +12646,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 158.75) (xy 349.25 158.75)
+			(xy 288.29 110.49) (xy 288.29 105.41)
 		)
 		(stroke
 			(width 0)
@@ -12696,7 +12696,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 158.75) (xy 320.04 162.56)
+			(xy 288.29 134.62) (xy 292.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -14424,7 +14424,7 @@
 		(uuid "00525177-bbe2-4f3a-b379-c0d23ba7f0b8")
 	)
 	(label "XIN"
-		(at 359.41 158.75 0)
+		(at 288.29 95.25 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15436,7 +15436,7 @@
 		(uuid "d199284f-7669-4eb1-8b70-70801a6a375a")
 	)
 	(label "XOUT"
-		(at 359.41 166.37 0)
+		(at 295.91 95.25 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16326,7 +16326,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 328.93 166.37 270)
+		(at 295.91 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16334,7 +16334,7 @@
 		(dnp no)
 		(uuid "11fb48ac-d1c6-41e9-bf4f-8a1029726aad")
 		(property "Reference" "C8"
-			(at 328.93 170.434 90)
+			(at 299.974 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16342,7 +16342,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 328.93 172.974 90)
+			(at 302.514 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16350,7 +16350,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 325.12 167.3352 0)
+			(at 296.8752 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16359,7 +16359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 328.93 166.37 0)
+			(at 295.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16368,7 +16368,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 328.93 166.37 0)
+			(at 295.91 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21269,7 +21269,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 320.04 162.56 270)
+		(at 292.1 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21278,7 +21278,7 @@
 		(fields_autoplaced yes)
 		(uuid "83cf0567-e012-4f24-9e91-247c214201b1")
 		(property "Reference" "#PWR04"
-			(at 313.69 162.56 0)
+			(at 292.1 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21287,7 +21287,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 316.23 162.5599 90)
+			(at 292.0999 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21296,7 +21296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 320.04 162.56 0)
+			(at 292.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21305,7 +21305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 162.56 0)
+			(at 292.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21314,7 +21314,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 320.04 162.56 0)
+			(at 292.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23289,7 +23289,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
-		(at 344.17 162.56 270)
+		(at 292.1 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23297,7 +23297,7 @@
 		(dnp no)
 		(uuid "a1bd1536-ebe4-42b9-a202-1176f8daf23f")
 		(property "Reference" "Y1"
-			(at 335.28 150.114 90)
+			(at 279.654 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23305,7 +23305,7 @@
 			)
 		)
 		(property "Value" "8MHz"
-			(at 336.296 152.654 90)
+			(at 282.194 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23313,7 +23313,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 344.17 162.56 0)
+			(at 292.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23322,7 +23322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 162.56 0)
+			(at 292.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +23331,7 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 344.17 162.56 0)
+			(at 292.1 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23340,7 +23340,7 @@
 			)
 		)
 		(property "a" "CF4008M00012001"
-			(at 342.9 155.1626 90)
+			(at 284.7026 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24408,7 +24408,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 353.06 158.75 90)
+		(at 288.29 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24416,7 +24416,7 @@
 		(dnp no)
 		(uuid "b7b35880-7fdd-4fb4-b872-1e1969f8c0af")
 		(property "Reference" "R1"
-			(at 353.06 156.718 90)
+			(at 286.258 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24424,7 +24424,7 @@
 			)
 		)
 		(property "Value" "40"
-			(at 353.06 158.75 90)
+			(at 288.29 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24432,7 +24432,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 353.06 160.528 90)
+			(at 290.068 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24441,7 +24441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 353.06 158.75 0)
+			(at 288.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24450,7 +24450,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 353.06 158.75 0)
+			(at 288.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25597,7 +25597,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 328.93 158.75 90)
+		(at 288.29 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25606,7 +25606,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0cb084c-521c-489e-aa17-a8f7aa25fb24")
 		(property "Reference" "C7"
-			(at 328.93 151.13 90)
+			(at 280.67 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25614,7 +25614,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 328.93 153.67 90)
+			(at 283.21 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25622,7 +25622,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 332.74 157.7848 0)
+			(at 287.3248 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25631,7 +25631,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 328.93 158.75 0)
+			(at 288.29 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25640,7 +25640,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 328.93 158.75 0)
+			(at 288.29 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)

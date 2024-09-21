@@ -1,0 +1,108 @@
+(footprint "XTAL2520"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "74df4a22-f71f-4c45-ad7d-5e1ed83a9b86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2f09e62e-e31b-499f-bf3e-64f64b0702c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f4fcec9-4e68-4c28-b86e-8fe727546240")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e706c30-0fb0-4312-b1a4-47dc28d4f048")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07977988-ae49-4cae-a9fe-9dccfc43eb30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 1.5495 -1.0285)
+		(end 0.3555 -1.0285)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "24cb02f4-bd71-4158-9482-5f7a417dbca8")
+	)
+	(fp_line
+		(start 1.5495 -0.2415)
+		(end 1.5495 -1.0285)
+		(stroke
+			(width 0.1525)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bb68fc6b-ea31-407a-8ba9-fb63dad0192a")
+	)
+	(pad "1" smd rect
+		(at 0.8635 -0.559 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d45025f2-f7c2-42ae-bfb6-570e40070443")
+	)
+	(pad "2" smd rect
+		(at -0.8635 -0.559 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6828e9c1-6e88-40c4-9ff3-83aa9ae20b16")
+	)
+	(pad "3" smd rect
+		(at -0.8635 0.559 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a69765d-663a-4ccf-93ad-237809c9b3d2")
+	)
+	(pad "4" smd rect
+		(at 0.8635 0.559 180)
+		(size 1 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "59ca56f1-60ac-4f83-bfbb-29fe3cac8e3f")
+	)
+)
