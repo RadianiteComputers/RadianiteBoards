@@ -25,6 +25,7 @@ We don't just take our own ideas; in fact: we allow other people to get into Rad
   - think it might be compatible
   - are ready to write some software for that board
   - get creative and have fun!
+
 You don't need to say in words about the ideas; in fact: you can even design that circuit board first as a draft and let our team pick which one to get into Radianite! Make sure you:
   - maximize rounded corners (a radius of 3mm is ideal)
   - make the board aesthetically pleasing as possible
