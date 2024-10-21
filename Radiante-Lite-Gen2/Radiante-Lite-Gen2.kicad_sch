@@ -7996,126 +7996,6 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -8400,6 +8280,12 @@
 		(uuid "1b503939-68f7-46b2-9c76-a724189b78ed")
 	)
 	(junction
+		(at 231.14 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202d8af0-048f-416e-8176-e14b018a3c4e")
+	)
+	(junction
 		(at 134.62 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8526,6 +8412,12 @@
 		(uuid "5fc99024-216e-4bb0-a925-86223b6a1fd4")
 	)
 	(junction
+		(at 231.14 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c206a6-a7b7-4ba5-bd95-a9faa11f5441")
+	)
+	(junction
 		(at 359.41 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8614,6 +8506,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d2332e4-4bb6-41eb-80c7-9c88ba855806")
+	)
+	(junction
+		(at 240.03 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d2512ce-3baa-48c4-acc1-b863de3a9926")
 	)
 	(junction
 		(at 402.59 222.25)
@@ -8752,6 +8650,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2b13af4-9753-4552-8e11-6266622d8dd4")
+	)
+	(junction
+		(at 313.69 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d622d0e1-9738-464f-9ff8-8e8b8b7b6f00")
 	)
 	(junction
 		(at 269.24 55.88)
@@ -9733,6 +9637,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 48.26) (xy 240.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f35d9a-fa5d-4c30-9720-43c42f3569e1")
+	)
+	(wire
+		(pts
 			(xy 57.15 242.57) (xy 76.2 242.57)
 		)
 		(stroke
@@ -9943,6 +9857,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 55.88) (xy 246.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5694e45d-915e-44dd-bf6f-f01e4db955f1")
+	)
+	(wire
+		(pts
 			(xy 260.35 115.57) (xy 266.7 115.57)
 		)
 		(stroke
@@ -9950,6 +9874,16 @@
 			(type default)
 		)
 		(uuid "577de1c9-1e14-495e-82f5-8518cf5a0548")
+	)
+	(wire
+		(pts
+			(xy 313.69 55.88) (xy 323.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c50fa9-1f56-42a3-9898-709f8c726a9c")
 	)
 	(wire
 		(pts
@@ -10190,6 +10124,16 @@
 			(type default)
 		)
 		(uuid "64858765-7c6e-4d47-9032-07a54fc25e13")
+	)
+	(wire
+		(pts
+			(xy 219.71 55.88) (xy 231.14 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650f5a1d-589f-49bf-ae33-3c60272b7d11")
 	)
 	(wire
 		(pts
@@ -11503,6 +11447,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 48.26) (xy 231.14 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa78136-0cfa-4df5-98c1-9b81e8ca66c1")
+	)
+	(wire
+		(pts
 			(xy 234.95 62.23) (xy 234.95 69.85)
 		)
 		(stroke
@@ -12430,6 +12384,16 @@
 			(type default)
 		)
 		(uuid "f0de9491-6e1a-475b-bb40-a38a7c265bbb")
+	)
+	(wire
+		(pts
+			(xy 313.69 48.26) (xy 323.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f162beba-0ac0-4136-8913-c0bbf9a8e03c")
 	)
 	(wire
 		(pts
@@ -16142,73 +16106,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 337.82 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c0fae73-533f-4cc0-a37c-df600fa94408")
-		(property "Reference" "#PWR035"
-			(at 341.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 334.01 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0b7dac2-88c5-432a-aa73-a8c283171df8")
-		)
-		(instances
-			(project "Radiante-Lite-Gen2"
-				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 375.92 217.17 180)
 		(unit 1)
@@ -16481,6 +16378,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 219.71 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1869c8bc-a368-4f6f-9926-4679ca17a00f")
+		(property "Reference" "C24"
+			(at 223.52 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 223.52 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 220.6752 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 219.71 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6599356b-ed29-4f02-ab12-dc97a9a69f42")
+		)
+		(pin "2"
+			(uuid "0fec0b6a-f00a-4d23-81a6-bb98c576ffc8")
+		)
+		(instances
+			(project "Radiante-Lite-Gen2"
+				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 132.08 193.04 90)
 		(unit 1)
@@ -16534,7 +16501,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f42f916d-92a0-451e-beb1-1d78d586619b")
+			(uuid "f42f916d-92a0-451e-beb1-1d78d586619c")
 		)
 		(instances
 			(project ""
@@ -17385,10 +17352,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "39c21f7f-27f6-4e24-8291-6aae3175805f")
+			(uuid "39c21f7f-27f6-4e24-8291-6aae31758060")
 		)
 		(pin "1"
-			(uuid "257cd44c-656a-411a-9bf3-53a4ada913f5")
+			(uuid "257cd44c-656a-411a-9bf3-53a4ada913f6")
 		)
 		(instances
 			(project ""
@@ -17748,10 +17715,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "65e4dc65-2fd5-4919-be65-46aff0de9b2e")
+			(uuid "65e4dc65-2fd5-4919-be65-46aff0de9b2f")
 		)
 		(pin "1"
-			(uuid "5d07ef5f-ba3e-4e6d-a6cd-fde8475b60c9")
+			(uuid "5d07ef5f-ba3e-4e6d-a6cd-fde8475b60ca")
 		)
 		(instances
 			(project ""
@@ -19175,7 +19142,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f42f916d-92a0-451e-beb1-1d78d586619b")
+			(uuid "f42f916d-92a0-451e-beb1-1d78d586619d")
 		)
 		(instances
 			(project ""
@@ -19357,6 +19324,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 231.14 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c703731-1240-4a70-aa92-cab90c09b14c")
+		(property "Reference" "C23"
+			(at 234.95 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 234.95 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 232.1052 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 231.14 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a13fcb1a-5d95-4285-b9ae-2bc45166823c")
+		)
+		(pin "2"
+			(uuid "d69ba3c2-6700-4cfb-8404-1cdaaec09e6e")
+		)
+		(instances
+			(project "Radiante-Lite-Gen2"
+				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 158.75 142.24 0)
 		(unit 1)
@@ -19476,7 +19513,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f42f916d-92a0-451e-beb1-1d78d586619b")
+			(uuid "f42f916d-92a0-451e-beb1-1d78d586619e")
 		)
 		(instances
 			(project ""
@@ -19674,7 +19711,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df00bac1-ca27-4473-8ee3-c8e5c4fcedca")
+			(uuid "df00bac1-ca27-4473-8ee3-c8e5c4fcedcb")
 		)
 		(instances
 			(project ""
@@ -20083,6 +20120,73 @@
 			(project "Radiante-Lite-Gen2"
 				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 337.82 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95106816-dbff-4e11-8fd2-6eae898b98af")
+		(property "Reference" "#PWR035"
+			(at 341.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 334.01 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 337.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d977adde-bcab-4ee5-9271-be2b8ca22aff")
+		)
+		(instances
+			(project "Radiante-Lite-Gen2"
+				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -20759,6 +20863,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 323.85 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab7c0ff6-498c-4634-9444-63058e9dce9f")
+		(property "Reference" "C22"
+			(at 327.66 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 327.66 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 324.8152 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 323.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 323.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "360e1246-927d-4139-8d3a-df6aad230919")
+		)
+		(pin "2"
+			(uuid "c083ceef-031d-4eb7-acbf-5324c44a291f")
+		)
+		(instances
+			(project "Radiante-Lite-Gen2"
+				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 172.72 44.45 0)
 		(unit 1)
@@ -21179,33 +21353,99 @@
 			)
 		)
 		(pin "4"
-			(uuid "b0ee8e85-25f4-4f99-ab6c-019b74946b3a")
+			(uuid "b0ee8e85-25f4-4f99-ab6c-019b74946b3b")
 		)
 		(pin "2"
-			(uuid "7e0755a0-716f-48d4-b345-5a26367d04ec")
+			(uuid "7e0755a0-716f-48d4-b345-5a26367d04ed")
 		)
 		(pin "6"
-			(uuid "497f08b9-5c5a-4305-95bc-ae8b60f110e9")
+			(uuid "497f08b9-5c5a-4305-95bc-ae8b60f110ea")
 		)
 		(pin "8"
-			(uuid "e8b4f25f-0c50-4d07-b82b-27b0fcfc0e7e")
+			(uuid "e8b4f25f-0c50-4d07-b82b-27b0fcfc0e7f")
 		)
 		(pin "7"
-			(uuid "c202ded2-1dae-40cb-9344-260d52ac7c0c")
+			(uuid "c202ded2-1dae-40cb-9344-260d52ac7c0d")
 		)
 		(pin "1"
-			(uuid "23eb5feb-394e-4ecc-a43f-e14f674e43b4")
+			(uuid "23eb5feb-394e-4ecc-a43f-e14f674e43b5")
 		)
 		(pin "5"
-			(uuid "a399bb23-6a63-4d88-8265-491cfd528d08")
+			(uuid "a399bb23-6a63-4d88-8265-491cfd528d09")
 		)
 		(pin "3"
-			(uuid "d996b4b6-4688-4090-ad63-539484b7d1a3")
+			(uuid "d996b4b6-4688-4090-ad63-539484b7d1a4")
 		)
 		(instances
 			(project ""
 				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
 					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 337.82 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3703fb3-4772-448a-bee1-b472d1342f66")
+		(property "Reference" "#PWR036"
+			(at 337.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 337.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 337.82 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b34dc59c-98d1-4c22-bd8b-e2e7eb43191e")
+		)
+		(instances
+			(project "Radiante-Lite-Gen2"
+				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -21724,7 +21964,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e258eb1e-ff08-4118-8556-fb875cc9bcd6")
+			(uuid "e258eb1e-ff08-4118-8556-fb875cc9bcd7")
 		)
 		(instances
 			(project ""
@@ -22617,72 +22857,6 @@
 			(project "Radiante-Lite-Gen2"
 				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 337.82 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9751c10-8531-4e67-8fbc-40e43346a874")
-		(property "Reference" "#PWR036"
-			(at 337.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 337.82 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 337.82 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 337.82 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 337.82 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7810703c-4684-49c5-ae4a-8cf782edd325")
-		)
-		(instances
-			(project "Radiante-Lite-Gen2"
-				(path "/4527dc94-9836-4558-a6c4-a9ab17ce59a5"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
