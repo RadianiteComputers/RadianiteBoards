@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.05
         }
       },
       "diff_pair_dimensions": [
@@ -118,8 +118,8 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.05,
+        "min_copper_edge_clearance": 0.15,
+        "min_hole_clearance": 0.1,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -202,12 +202,12 @@
           "spacing": 0.6
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 100,
+          "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 0.7,
-          "min_amplitude": 0.1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.06,
           "single_sided": false,
-          "spacing": 0.2
+          "spacing": 0.1
         }
       },
       "via_dimensions": [
@@ -456,7 +456,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Radianite-ProjectLemonIrvine.kicad_pro",
+    "filename": "Radianite-VariablePortableSSD.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -473,25 +473,8 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.05,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "SDQ",
-        "pcb_color": "rgb(75, 70, 255)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.1,
+        "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -500,34 +483,14 @@
       "version": 3
     },
     "net_colors": {
-      "+1V8": "rgb(255, 107, 214)",
-      "+3V3": "rgb(41, 255, 23)",
-      "/IO/MODEM_XOUT": "rgb(56, 78, 255)",
-      "/IO/NAND_CLK": "rgb(56, 78, 255)",
-      "/IO/NAND_CMD": "rgb(56, 78, 255)",
-      "/IO/NAND_D0": "rgb(56, 78, 255)",
-      "/IO/NAND_D1": "rgb(56, 78, 255)",
-      "/IO/NAND_D2": "rgb(56, 78, 255)",
-      "/IO/NAND_D3": "rgb(56, 78, 255)",
-      "/IO/NAND_D4": "rgb(56, 78, 255)",
-      "/IO/NAND_D5": "rgb(56, 78, 255)",
-      "/IO/NAND_D6": "rgb(56, 78, 255)",
-      "/IO/NAND_D7": "rgb(56, 78, 255)",
-      "/IO/NAND_DS": "rgb(56, 78, 255)",
-      "/IO/NAND_RST": "rgb(56, 78, 255)",
-      "VBUS": "rgb(72, 166, 255)",
-      "VCPU": "rgb(240, 56, 255)",
-      "VGPU": "rgb(255, 172, 48)",
-      "VHDMI": "rgb(51, 255, 175)",
-      "VRAM": "rgb(255, 47, 167)"
+      "+1V2": "rgb(87, 255, 167)",
+      "+3V3": "rgb(40, 255, 253)",
+      "SDVCC": "rgb(255, 78, 181)",
+      "VBUS": "rgb(255, 173, 62)",
+      "VUHS": "rgb(98, 116, 255)"
     },
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": ""
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -644,24 +607,8 @@
   },
   "sheets": [
     [
-      "a0cc354a-60ab-464a-9a28-4a35e48053b0",
+      "efd80ee7-228e-4c54-bf48-b1303f8c75af",
       "Hoofdblad"
-    ],
-    [
-      "e0e47b28-1921-4ea0-b7a3-04f194ce0e7b",
-      "Power"
-    ],
-    [
-      "c3594ab5-3560-48b1-9609-6ea6028d0d19",
-      "Memory"
-    ],
-    [
-      "aad1a9e5-4416-4353-aa32-deb968e0a622",
-      "IO"
-    ],
-    [
-      "fa35912e-4a00-4c56-a460-d8d69080560d",
-      "Miscellaneous"
     ]
   ],
   "text_variables": {}
