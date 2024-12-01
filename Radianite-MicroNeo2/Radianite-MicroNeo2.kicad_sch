@@ -8403,10 +8403,6 @@
 		(uuid "1b069450-77f8-4bee-859a-6a37d87d4a20")
 	)
 	(no_connect
-		(at 397.51 177.8)
-		(uuid "1b16a7d0-9a7e-43b7-8dfb-5052775d3dd0")
-	)
-	(no_connect
 		(at 71.12 247.65)
 		(uuid "26923e01-582f-4b2d-864a-4f1e6416a1a9")
 	)
@@ -9135,6 +9131,16 @@
 			(type default)
 		)
 		(uuid "274d0f7b-56e5-4c0a-b9c5-da54c361fa98")
+	)
+	(wire
+		(pts
+			(xy 397.51 177.8) (xy 397.51 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27ace87a-555c-48de-8a6c-4893d4e6c0d0")
 	)
 	(wire
 		(pts
@@ -15275,7 +15281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Johanson_2450AT18x100"
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
 			(at 392.43 170.815 0)
 			(effects
 				(font
@@ -18188,6 +18194,72 @@
 			(project "Radianite-MicroNeo2"
 				(path "/802e0cb3-e09e-42e9-bc92-71c64f8b919b"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 397.51 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7995a649-57fa-43f4-b398-f2ce33986ab7")
+		(property "Reference" "#PWR046"
+			(at 397.51 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 397.51 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 397.51 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50a0a4d-f140-444e-be86-30d0a32a6351")
+		)
+		(instances
+			(project "Radianite-MicroNeo2"
+				(path "/802e0cb3-e09e-42e9-bc92-71c64f8b919b"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
