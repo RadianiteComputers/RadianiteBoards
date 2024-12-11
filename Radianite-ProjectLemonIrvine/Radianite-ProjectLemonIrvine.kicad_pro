@@ -182,7 +182,8 @@
         0.1,
         0.2,
         0.3,
-        0.4
+        0.4,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -216,8 +217,20 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.3,
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.4,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.4495,
+          "drill": 0.2005
         },
         {
           "diameter": 0.5,
