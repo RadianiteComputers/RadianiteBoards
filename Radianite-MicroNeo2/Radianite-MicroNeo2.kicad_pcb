@@ -1821,6 +1821,17 @@
 			(pintype "passive")
 			(uuid "0fa40ed2-d979-4abb-becc-54f384db63e6")
 		)
+		(model "${KIPRJMOD}/xktf-0803-0.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 180)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -17404,15 +17415,15 @@
 			(pintype "passive")
 			(uuid "7ced7a79-b8e7-4cc0-aee3-9ea06a7abf30")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal.wrl"
+		(model "${KIPRJMOD}/audio_3.5mm_trrs.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 5.5 -3 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 -90)
 			)
 		)
 	)
