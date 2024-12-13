@@ -1,0 +1,141 @@
+(footprint "RGBLED_0807"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "88f6d2b2-0d46-4947-b805-98325ea9d7c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fa237703-d6b0-4c72-855b-07646b198c99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57ff246e-fe32-4360-8630-25398c71aa21")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98f3bd57-2995-4a65-ad13-629122edf37f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f40b286-c031-4968-ad15-ee624b524a3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3DModel_Q" "381ae4d721d6485eaad9d0ca067812b5"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "8a96bede-b911-470b-a475-daab3c6f9d2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLC_3D_Size" "1.623 1.011"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "b86cdb61-b4da-4749-8578-5316a663ba37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.1525 0.813)
+		(end -0.1525 -0.813)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5237a7c1-3cf2-4246-9505-d8c6f86e1395")
+	)
+	(fp_line
+		(start -0.1525 0.838)
+		(end 0.305 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09ddb331-50ac-415e-8faa-5a8614d7c89f")
+	)
+	(fp_line
+		(start 0.305 0)
+		(end -0.1525 -0.813)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74c8194c-a551-445d-bff7-863920e15037")
+	)
+	(pad "1" smd rect
+		(at -0.9145 0)
+		(size 0.91 1.778)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3c052ad2-2644-430a-9a65-399bd60c7ee7")
+	)
+	(pad "2" smd rect
+		(at 0.94 0)
+		(size 0.91 1.778)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cade6b18-cb2a-439e-94b4-d1cf90755af5")
+	)
+	(model "${KIPRJMOD}/EASYEDA_MODELS/LED-0805_G.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -0)
+		)
+	)
+)

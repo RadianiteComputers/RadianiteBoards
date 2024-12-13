@@ -1,0 +1,121 @@
+(footprint "TP30"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "fd62d0f7-1951-4008-b197-f7c44c56f579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8cf9e0af-fc8d-4d5b-aecf-c75f6c0a48c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fb124f2-4db2-4f3b-ad41-c5b227c78f02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09cf2a3c-3b79-4ff2-8567-bc027abf80a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6af6b50-8c3d-4380-b9b4-5e63abc3fc4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.249 0)
+		(stroke
+			(width 0.099)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fe20e711-9d21-4d17-b54d-d0cf73487f90")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.249 0)
+		(stroke
+			(width 0.0255)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "fa3fe6e3-1504-4674-ae73-a84b2c265c33")
+	)
+	(fp_poly
+		(pts
+			(xy 0.254 0) (xy 0.2345 0.097) (xy 0.1795 0.1795) (xy 0.097 0.2345) (xy 0 0.254) (xy -0.097 0.2345)
+			(xy -0.1245 0.216) (xy -0.1795 0.1795) (xy -0.2345 0.097) (xy -0.254 0) (xy -0.2345 -0.097) (xy -0.1795 -0.1795)
+			(xy -0.1245 -0.216) (xy -0.097 -0.2345) (xy 0 -0.254) (xy 0.097 -0.2345) (xy 0.1795 -0.1795) (xy 0.2345 -0.097)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "233918db-e15a-4ffe-bce1-eed2e9745286")
+	)
+	(fp_poly
+		(pts
+			(xy 0.254 0) (xy 0.2345 0.097) (xy 0.1795 0.1795) (xy 0.097 0.2345) (xy 0 0.254) (xy -0.097 0.2345)
+			(xy -0.1245 0.216) (xy -0.1795 0.1795) (xy -0.2345 0.097) (xy -0.254 0) (xy -0.2345 -0.097) (xy -0.1795 -0.1795)
+			(xy -0.1245 -0.216) (xy -0.097 -0.2345) (xy 0 -0.254) (xy 0.097 -0.2345) (xy 0.1795 -0.1795) (xy 0.2345 -0.097)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "User.1")
+		(uuid "6207b4d3-60f8-4b8b-af42-d5bab6a80605")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.2995 0.2995)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 90)
+		(uuid "a4b98272-e5c3-4c8a-8537-1d44b7f1d8d4")
+	)
+)
