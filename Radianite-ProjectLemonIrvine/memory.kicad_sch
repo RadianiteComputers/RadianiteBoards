@@ -7315,6 +7315,126 @@
 				)
 			)
 		)
+		(symbol "power:+1V8"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -7633,12 +7753,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "388083e4-4ac4-4c4f-89e0-1d6d83143ae2")
-	)
-	(junction
-		(at 132.08 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fe083ce-8beb-4bb1-abbf-a6a781de9ded")
 	)
 	(junction
 		(at 200.66 109.22)
@@ -11044,16 +11158,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 166.37) (xy 132.08 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57ad060-f088-4ac3-8705-9ad1edd7c72e")
-	)
-	(wire
-		(pts
 			(xy 78.74 156.21) (xy 93.98 156.21)
 		)
 		(stroke
@@ -14203,6 +14307,73 @@
 			(project "Radianite-ProjectLemonIrvine"
 				(path "/a0cc354a-60ab-464a-9a28-4a35e48053b0/c3594ab5-3560-48b1-9609-6ea6028d0d19"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 132.08 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5425bf25-b025-45cb-8101-6dc80b57fc1f")
+		(property "Reference" "#PWR0112"
+			(at 128.27 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 135.89 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 132.08 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93bf2cb8-d893-4ff6-acd5-38e050a0a118")
+		)
+		(instances
+			(project "Radianite-ProjectLemonIrvine"
+				(path "/a0cc354a-60ab-464a-9a28-4a35e48053b0/c3594ab5-3560-48b1-9609-6ea6028d0d19"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
