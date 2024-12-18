@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -477,7 +477,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.07,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -516,6 +516,13 @@
     "net_colors": {
       "+1V8": "rgb(255, 107, 214)",
       "+3V3": "rgb(41, 255, 23)",
+      "/IO/MODEM_CLK": "rgb(0, 255, 255)",
+      "/IO/MODEM_CMD": "rgb(0, 255, 255)",
+      "/IO/MODEM_CTS": "rgb(0, 255, 255)",
+      "/IO/MODEM_D0": "rgb(0, 255, 255)",
+      "/IO/MODEM_D1": "rgb(0, 255, 255)",
+      "/IO/MODEM_D2": "rgb(0, 255, 255)",
+      "/IO/MODEM_D3": "rgb(0, 255, 255)",
       "/IO/MODEM_XOUT": "rgb(56, 78, 255)",
       "/IO/NAND_CLK": "rgb(56, 78, 255)",
       "/IO/NAND_CMD": "rgb(56, 78, 255)",
